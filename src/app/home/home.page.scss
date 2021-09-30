@@ -1,27 +1,31 @@
-#container {
-  text-align: center;
+ion-item{
+  --padding-start: 10px;
+  --inner-padding-end: 10px;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  ion-thumbnail {
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+    height: 100%;
+    margin-inline-end: 10px;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+  }
 
-  color: #8c8c8c;
+  ion-chip{
+    padding: 3px;;
 
-  margin: 0;
-}
+  }
 
-#container a {
-  text-decoration: none;
+  h1{
+    font-weight: bold;
+    font-size: 0.8 erm;
+  }
+
+  p{
+    font-size: 0.06 erm;
+
+  }
+
+  p+p{
+    color:crimson
+
+  }
 }
